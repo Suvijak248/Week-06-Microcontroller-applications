@@ -7,7 +7,9 @@ $ผลลัพธ์
 
 
 ดูรายละเอียดขนาดตาม component
+
 ```text
+
 Executing action: size-components
 Running ninja in directory /project/lab6_1_basic_build/build
 Executing "ninja all"...
@@ -54,7 +56,9 @@ Executing "ninja size-components"...
 │ libnvs_sec_provider.a   │          5 │    0 │    0 │     0 │     0 │     0 │        0 │          5 │     5 │          0 │       0 │        0 │        0 │                  0 │           0 │
 │ libesp_phy.a            │          5 │    0 │    0 │     0 │     0 │     0 │        0 │          5 │     5 │          0 │       0 │        0 │        0 │                  0 │           0 │
 └─────────────────────────┴────────────┴──────┴──────┴───────┴───────┴───────┴──────────┴────────────┴───────┴────────────┴─────────┴──────────┴──────────┴────────────────────┴─────────────┘
-\```text
+```text
+
+
 ดูรายละเอียดขนาดตาม source file
 <Executing action: size-files
 Running ninja in directory /project/lab6_1_basic_build/build
