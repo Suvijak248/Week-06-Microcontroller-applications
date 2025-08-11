@@ -1,8 +1,8 @@
-ผลลัพธ์
+```ผลลัพธ์
 ดูขนาดBinary
 img width="829" height="315" alt="Screenshot 2025-08-11 230810" src="https://github.com/user-attachments/assets/d9df8623-9136-4990-9832-0fcfdd2c466b" />
-ดูลายละเอียดขนาดตาม component
-Executing action: size-components
+```ดูลายละเอียดขนาดตาม component
+<Executing action: size-components
 Running ninja in directory /project/lab6_1_basic_build/build
 Executing "ninja all"...
 [1/4] cd /project/lab6_1_basic_build/build && /opt/esp/python_env/idf6.0_py3.12_env/bin/python /opt...ld/build/partition_table/partition-table.bin /project/lab6_1_basic_build/build/lab1_basic_build.bi 
@@ -47,4 +47,4 @@ Executing "ninja size-components"...
 │ libcxx.a                │         10 │    0 │    0 │     0 │     0 │     0 │        0 │         10 │    10 │          0 │       0 │        0 │        0 │                  0 │           0 │
 │ libnvs_sec_provider.a   │          5 │    0 │    0 │     0 │     0 │     0 │        0 │          5 │     5 │          0 │       0 │        0 │        0 │                  0 │           0 │
 │ libesp_phy.a            │          5 │    0 │    0 │     0 │     0 │     0 │        0 │          5 │     5 │          0 │       0 │        0 │        0 │                  0 │           0 │
-└─────────────────────────┴────────────┴──────┴──────┴───────┴───────┴───────┴──────────┴────────────┴───────┴────────────┴─────────┴──────────┴──────────┴────────────────────┴─────────────┘
+└─────────────────────────┴────────────┴──────┴──────┴───────┴───────┴───────┴──────────┴────────────┴───────┴────────────┴─────────┴──────────┴──────────┴────────────────────┴─────────────┘>
