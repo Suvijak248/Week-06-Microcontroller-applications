@@ -1,14 +1,11 @@
-##ผลลัพธ์
+#ผลลัพธ์
 
-ดูขนาดBinary
-
-
+##ดูขนาดBinary
 <img width="829" height="315" alt="Screenshot 2025-08-11 230810" src="https://github.com/user-attachments/assets/3be2bd32-6943-4ca3-9873-a7e6dbf132eb" />
 
 
-ดูรายละเอียดขนาดตาม component
-
-```text
+###ดูรายละเอียดขนาดตาม component
+```
 Executing action: size-components
 Running ninja in directory /project/lab6_1_basic_build/build
 Executing "ninja all"...
@@ -55,11 +52,12 @@ Executing "ninja size-components"...
 │ libnvs_sec_provider.a   │          5 │    0 │    0 │     0 │     0 │     0 │        0 │          5 │     5 │          0 │       0 │        0 │        0 │                  0 │           0 │
 │ libesp_phy.a            │          5 │    0 │    0 │     0 │     0 │     0 │        0 │          5 │     5 │          0 │       0 │        0 │        0 │                  0 │           0 │
 └─────────────────────────┴────────────┴──────┴──────┴───────┴───────┴───────┴──────────┴────────────┴───────┴────────────┴─────────┴──────────┴──────────┴────────────────────┴─────────────┘ 
-```text
+```
 
 
-ดูรายละเอียดขนาดตาม source file
-<Executing action: size-files
+###ดูรายละเอียดขนาดตาม source file
+```
+Executing action: size-files
 Running ninja in directory /project/lab6_1_basic_build/build
 Executing "ninja all"...
 [1/4] cd /project/lab6_1_basic_build/build && /opt/esp/python_env/idf6.0_py3.12_env/bin/python /opt...ld/build/partition_table/partition-table.bin /project/lab6_1_basic_build/build/lab1_basic_build.bi 
@@ -269,3 +267,4 @@ Executing "ninja size-files"...
 │ log_write.c.obj                     │          4 │    4 │    0 │     4 │    0 │     0 │        0 │          0 │     0 │          0 │       0 │        0 │        0 │                  0 │           0 │
 │ spi_bus_lock.c.obj                  │          4 │    0 │    0 │     0 │    0 │     0 │        0 │          0 │     0 │          4 │       4 │        0 │        0 │                  0 │           0 │
 └─────────────────────────────────────┴────────────┴──────┴──────┴───────┴──────┴───────┴──────────┴────────────┴───────┴────────────┴─────────┴──────────┴──────────┴────────────────────┴─────────────┘>
+```
