@@ -1,9 +1,9 @@
-#ผลลัพธ์
-##ดูขนาดBinary
+# ผลลัพธ์
+### ดูขนาดBinary
 <img width="829" height="315" alt="Screenshot 2025-08-11 230810" src="https://github.com/user-attachments/assets/3be2bd32-6943-4ca3-9873-a7e6dbf132eb" />
 
 
-###ดูรายละเอียดขนาดตาม component
+### ดูรายละเอียดขนาดตาม component
 ```
 Executing action: size-components
 Running ninja in directory /project/lab6_1_basic_build/build
@@ -54,7 +54,7 @@ Executing "ninja size-components"...
 ```
 
 
-###ดูรายละเอียดขนาดตาม source file
+### ดูรายละเอียดขนาดตาม source file
 ```
 Executing action: size-files
 Running ninja in directory /project/lab6_1_basic_build/build
